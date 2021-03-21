@@ -28,7 +28,7 @@ limy = height - txty
 
 while True:
     fbuf.fill(0)
-    fbuf.text(txt, x, y)
+    fbuf.text(txt, x, y, 1)
     display.blit(fbuf, 0, 0)
     display.show()
     x += dx
